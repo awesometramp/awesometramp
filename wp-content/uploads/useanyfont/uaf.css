@@ -1,0 +1,3 @@
+@font-face {font-family: "noir";src: url("/awesometramp-github/wp-content/uploads/useanyfont/1433noir.woff2") format("woff2"),url("/awesometramp-github/wp-content/uploads/useanyfont/1433noir.woff") format("woff");font-display: auto;}
+.noir {font-family: "noir" !important;}
+h2, body, menu-minimal-portfolio-menu-container-li-a-menu-minimal-portfolio-menu-container-li-span-menu-minimal-portfolio-menu-li-a-menu-minimal-portfolio-menu-li-span {font-family: "noir" !important;}
