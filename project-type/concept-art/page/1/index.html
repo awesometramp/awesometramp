@@ -22,7 +22,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
   body .nectar-social[data-color-override="override"].fixed .nectar-social-inner a,
   .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:hover,
   .nectar-social.vertical[data-color-override="override"] .nectar-social-inner a:hover {
-    background-color: #3452ff;
+    background-color: #1e73be;
   }
   .nectar-social.hover .nectar-love.loved,
   .nectar-social.hover > .nectar-love-button a:hover,
@@ -30,7 +30,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
   #single-below-header .nectar-social[data-color-override="override"].hover > div a:hover,
   .nectar-social[data-color-override="override"].hover .share-btn:hover,
   .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a {
-    border-color: #3452ff;
+    border-color: #1e73be;
   }
   #single-below-header .nectar-social.hover .nectar-love.loved i,
   #single-below-header .nectar-social.hover[data-color-override="override"] a:hover,
@@ -45,17 +45,41 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
   .nectar-social[data-color-override="override"].hover > div:hover span,
   .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) i,
   .sharing-default-minimal .nectar-social[data-color-override="override"] .nectar-social-inner a:not(:hover) {
-    color: #3452ff;
+    color: #1e73be;
   }
 </style>
-<link rel="stylesheet" id="uaf_client_css-css" href="https://awesometramp.github.io/awesometramp/wp-content/uploads/useanyfont/uaf.css" type="text/css" media="all">
 <link rel="stylesheet" id="font-awesome-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/font-awesome-legacy.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="salient-grid-system-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/build/grid-system.css" type="text/css" media="all">
 <link rel="stylesheet" id="main-styles-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/build/style.css" type="text/css" media="all">
 <style id="main-styles-inline-css" type="text/css">
+
+		@font-face{
+		     font-family:'Open Sans';
+		     src:url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/OpenSans-Light.woff') format('woff');
+		     font-weight:300;
+		     font-style:normal; 
+		}
+		 @font-face{
+		     font-family:'Open Sans';
+		     src:url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/OpenSans-Regular.woff') format('woff');
+		     font-weight:400;
+		     font-style:normal; 
+		}
+		 @font-face{
+		     font-family:'Open Sans';
+		     src:url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/OpenSans-SemiBold.woff') format('woff');
+		     font-weight:600;
+		     font-style:normal; 
+		}
+		 @font-face{
+		     font-family:'Open Sans';
+		     src:url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/OpenSans-Bold.woff') format('woff');
+		     font-weight:700;
+		     font-style:normal; 
+		}
+@font-face { font-family: 'Lovelo'; src: url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/Lovelo_Black.eot'); src: url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/Lovelo_Black.eot?#iefix') format('embedded-opentype'), url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/Lovelo_Black.woff') format('woff'),  url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/Lovelo_Black.ttf') format('truetype'), url('https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/fonts/Lovelo_Black.svg#loveloblack') format('svg'); font-weight: normal; font-style: normal; }
 html:not(.page-trans-loaded) { background-color: #ffffff; }
 </style>
-<link rel="stylesheet" id="nectar_default_font_open_sans-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&subset=latin%2Clatin-ext" type="text/css" media="all">
 <link rel="stylesheet" id="nectar-blog-standard-minimal-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/build/blog/standard-minimal.css" type="text/css" media="all">
 <link rel="stylesheet" id="nectar-flickity-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/build/plugins/flickity.css" type="text/css" media="all">
 <link rel="stylesheet" id="responsive-css" href="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/css/build/responsive.css" type="text/css" media="all">
@@ -66,13 +90,13 @@ html:not(.page-trans-loaded) { background-color: #ffffff; }
 <style id="dynamic-css-inline-css" type="text/css">
 #header-space{background-color:#ffffff}@media only screen and (min-width:1000px){body #ajax-content-wrap.no-scroll{min-height:calc(100vh - 84px);height:calc(100vh - 84px)!important;}}@media only screen and (min-width:1000px){#page-header-wrap.fullscreen-header,#page-header-wrap.fullscreen-header #page-header-bg,html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,#nectar_fullscreen_rows:not(.afterLoaded) > div{height:calc(100vh - 83px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 83px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header{top:84px;}.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 82px)!important;}.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 82px - 32px)!important;}}@media only screen and (max-width:999px){.using-mobile-browser #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 100px);}.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level,[data-permanent-transparent="1"].using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 100px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,#nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div{height:calc(100vh - 47px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 47px);}body[data-transparent-header="false"] #ajax-content-wrap.no-scroll{min-height:calc(100vh - 47px);height:calc(100vh - 47px);}}.screen-reader-text,.nectar-skip-to-content:not(:focus){border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;}
 </style>
-<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="http://fonts.googleapis.com/css?family=Quicksand%3A700%2C500%7COpen+Sans%3A700%7CRoboto%3A500%2C400%2C700%2C400italic%7CPlayfair+Display%3A400&subset=latin&ver=1653152979" type="text/css" media="all">
+<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="http://fonts.googleapis.com/css?family=Roboto%3A400%2C700%2C400italic%2C500%7CPlayfair+Display%3A400&subset=latin&ver=1653190721" type="text/css" media="all">
 <script type="text/javascript" src="https://awesometramp.github.io/awesometramp/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://awesometramp.github.io/awesometramp/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 
 
 <script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head><body class="archive tax-project-type term-concept-art term-11 ascend wpb-js-composer js-comp-ver-6.7.1 vc_responsive" data-footer-reveal="1" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutQuart" data-cad="800" data-megamenu-width="full-width" data-aie="zoom-out" data-ls="magnific" data-apte="horizontal_swipe" data-hhun="1" data-fancy-form-rcs="1" data-form-style="minimal" data-form-submit="regular" data-is="minimal" data-button-style="rounded" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="true" data-full-width-header="false" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right-hover" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="false" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="0" data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false">
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head><body class="archive tax-project-type term-concept-art term-11 ascend wpb-js-composer js-comp-ver-6.7.1 vc_responsive" data-footer-reveal="1" data-footer-reveal-shadow="small" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutQuart" data-cad="800" data-megamenu-width="full-width" data-aie="zoom-out" data-ls="magnific" data-apte="horizontal_swipe" data-hhun="1" data-fancy-form-rcs="1" data-form-style="minimal" data-form-submit="regular" data-is="minimal" data-button-style="rounded" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="true" data-full-width-header="false" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right-hover" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="false" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="0" data-header-color="custom" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false">
 	
 	<script type="text/javascript">
 	 (function(window, document) {
@@ -118,7 +142,7 @@ html:not(.page-trans-loaded) { background-color: #ffffff; }
 				
 									<nav>
 													<ul class="sf-menu">
-								<li id="social-in-menu" class="button_social_group"><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">instagram</span><i class="fa fa-instagram" aria-hidden="true"></i> </a><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">artstation</span><i class="icon-salient-artstation" aria-hidden="true"></i> </a></li>							</ul>
+								<li id="social-in-menu" class="button_social_group"><a target="_blank" rel="noopener" href="https://www.instagram.com/__awesometramp__/"><span class="screen-reader-text">instagram</span><i class="fa fa-instagram" aria-hidden="true"></i> </a><a target="_blank" rel="noopener" href="https://www.artstation.com/shreyasdas"><span class="screen-reader-text">artstation</span><i class="icon-salient-artstation" aria-hidden="true"></i> </a></li>							</ul>
 													<ul class="buttons sf-menu" data-user-set-ocm="off">
 
 								
@@ -226,7 +250,7 @@ html:not(.page-trans-loaded) { background-color: #ffffff; }
 </div>
 
 
-<div id="footer-outer" style="background-image:url(http://themenectar.com/demo/salient-minimal-portfolio/wp-content/uploads/2016/11/bigg-150x150.jpg);" data-cols="1" data-custom-color="true" data-disable-copyright="false" data-matching-section-color="false" data-copyright-line="false" data-using-bg-img="true" data-bg-img-overlay="0.9" data-full-width="false" data-using-widget-area="true" data-link-hover="default">
+<div id="footer-outer" data-cols="1" data-custom-color="true" data-disable-copyright="false" data-matching-section-color="false" data-copyright-line="true" data-using-bg-img="false" data-bg-img-overlay="0.9" data-full-width="false" data-using-widget-area="true" data-link-hover="underline">
 	
 		
 	<div id="footer-widgets" data-has-widgets="true" data-cols="1">
@@ -238,11 +262,7 @@ html:not(.page-trans-loaded) { background-color: #ffffff; }
 				
 								
 				<div class="col span_12">
-					<div id="text-1" class="widget widget_text"><h4>Get in touch</h4>			<div class="textwidget">The Castle Unit 345 2500 Castle Dr<br>
-Manhattan, NY<br>
-<br>
-E: hello@themenectar.com</div>
-		</div>					</div>
+										</div>
 					
 											
 						
@@ -260,7 +280,7 @@ E: hello@themenectar.com</div>
 			   
 	  <div class="col span_7 col_last">
       <ul class="social">
-        <li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">twitter</span><i class="fa fa-twitter" aria-hidden="true"></i></a></li><li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">facebook</span><i class="fa fa-facebook" aria-hidden="true"></i></a></li><li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">linkedin</span><i class="fa fa-linkedin" aria-hidden="true"></i></a></li><li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">dribbble</span><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>      </ul>
+        <li><a target="_blank" rel="noopener" href="https://www.instagram.com/__awesometramp__/"><span class="screen-reader-text">instagram</span><i class="fa fa-instagram" aria-hidden="true"></i></a></li><li><a target="_blank" rel="noopener" href="https://www.artstation.com/shreyasdas"><span class="screen-reader-text">artstation</span><i class="icon-salient-artstation" aria-hidden="true"></i></a></li><li><a href="mailto:shreyasdas.art@gmail.com?subject=Found%20you%20on%20website%20.&body=Hi%20%2C"><span class="screen-reader-text">email</span><i class="fa fa-envelope" aria-hidden="true"></i></a></li>      </ul>
 	  </div>
     
 	  		<div class="col span_5">
@@ -298,7 +318,7 @@ E: hello@themenectar.com</div>
 					
 				</div>
 
-				<div class="bottom-meta-wrap"><ul class="off-canvas-social-links mobile-only"><li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">instagram</span><i class="fa fa-instagram" aria-hidden="true"></i> </a></li><li><a target="_blank" rel="noopener" href=""><span class="screen-reader-text">artstation</span><i class="icon-salient-artstation" aria-hidden="true"></i> </a></li></ul></div>
+				<div class="bottom-meta-wrap"><ul class="off-canvas-social-links mobile-only"><li><a target="_blank" rel="noopener" href="https://www.instagram.com/__awesometramp__/"><span class="screen-reader-text">instagram</span><i class="fa fa-instagram" aria-hidden="true"></i> </a></li><li><a target="_blank" rel="noopener" href="https://www.artstation.com/shreyasdas"><span class="screen-reader-text">artstation</span><i class="icon-salient-artstation" aria-hidden="true"></i> </a></li></ul></div>
 				</div>
 		
 </div> 
@@ -318,7 +338,7 @@ var nectar_theme_info = {"using_salient":"true"};
 <script type="text/javascript" src="https://awesometramp.github.io/awesometramp/wp-content/plugins/salient-portfolio/js/salient-portfolio.js" id="salient-portfolio-js-js"></script>
 <script type="text/javascript" id="salient-social-js-extra">
 /* <![CDATA[ */
-var nectarLove = {"ajaxurl":"https:\/\/awesometramp.github.io\/awesometramp\/wp-admin\/admin-ajax.php","postID":"317","rooturl":"https:\/\/PLACEHOLDER.wpsho","loveNonce":"64b86937fb"};
+var nectarLove = {"ajaxurl":"https:\/\/awesometramp.github.io\/awesometramp\/wp-admin\/admin-ajax.php","postID":"317","rooturl":"https:\/\/PLACEHOLDER.wpsho","loveNonce":"b1e7addbb6"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://awesometramp.github.io/awesometramp/wp-content/plugins/salient-social/js/salient-social.js" id="salient-social-js"></script>
@@ -333,7 +353,7 @@ var nectarLove = {"ajaxurl":"https:\/\/awesometramp.github.io\/awesometramp\/wp-
 <script type="text/javascript" src="https://awesometramp.github.io/awesometramp/wp-content/themes/salient/js/build/third-party/superfish.js" id="superfish-js"></script>
 <script type="text/javascript" id="nectar-frontend-js-extra">
 /* <![CDATA[ */
-var nectarLove = {"ajaxurl":"https:\/\/awesometramp.github.io\/awesometramp\/wp-admin\/admin-ajax.php","postID":"317","rooturl":"https:\/\/PLACEHOLDER.wpsho","disqusComments":"false","loveNonce":"64b86937fb","mapApiKey":""};
+var nectarLove = {"ajaxurl":"https:\/\/awesometramp.github.io\/awesometramp\/wp-admin\/admin-ajax.php","postID":"317","rooturl":"https:\/\/PLACEHOLDER.wpsho","disqusComments":"false","loveNonce":"b1e7addbb6","mapApiKey":""};
 var nectarOptions = {"quick_search":"false","header_entrance":"false","mobile_header_format":"default","ocm_btn_position":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default"};
 var nectar_front_i18n = {"next":"Next","previous":"Previous"};
 /* ]]> */
