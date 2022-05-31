@@ -1,0 +1,7 @@
+.col:hover img {filter: grayscale(0) !important;}
+.portfolio-items[data-ps="8"] .col:hover img {filter: grayscale(0) !important;}
+.row > .col a {display: inline-block;vertical-align: middle;transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0,0,0,0);transition-duration: .3s;transition-property: transform;}
+.row > .col a:active, .row > .col a:focus, .row > .col a:hover {transform: scale(.9);}
+#parallaxImg__7 > div > div > div:nth-child(2) > div:nth-child(2) > div > h4 {color: rgba(255,255,255,0);}
+#parallaxImg__8 > div > div > div:nth-child(2) > div:nth-child(1) {background-image: url("https://awesometramp.github.io/awesometramp/wp-content/uploads/2022/05/gif-comicfixed-AdobeCreativeClou.gif");background-size: cover;background-repeat: repeat;color: #000;}
+#parallaxImg__4 > div > div > div:nth-child(2) > div:nth-child(1) {background-image: url("https://awesometramp.github.io/awesometramp/wp-content/uploads/2022/05/vechicle-conceptgif-AdobeCreativ-2.gif");background-size: cover;}
